@@ -1,0 +1,21 @@
+{
+    "name": "dshumkov/micra-router",
+    "description": "Wrapper for FastRoute",
+    "license": "MIT",
+    "version": "0.0.2-dev",
+    "authors": [
+        {
+            "name": "Dmitry Shumkov",
+            "email": "dmitry.shumkov@saatchi.co.nz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nikic/fast-route": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "DShumkov\\Micra\\Router\\": "src/"
+        }
+    }
+}
